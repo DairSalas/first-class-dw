@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bg-oscuro {
+    background: rgb(44, 36, 36);
+}
+
+.bg-rojo {
+    background: red;   
+}
+
+.bg-blanco {
+    background: white;
+}
+
+.text-blanco {
+    color: white;
+}
+
+.cabecera {
+    height: 50px;
+    width: 100%;
+}
+
+.barra {
+    height: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caja-centrada {
+    margin: auto;
+}
+
+.flexible {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.menu > li {
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.menu > li:first-child {
+    font-size: 25px;
+}
+
+.menu > li:hover {
+    background: green;
+}
+
+.section {
+    width: 98%;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    display: flex;
+}
+
+.barra-lateral {
+    min-height: 100%;
+    width: 20%;
+    border-top: 2px solid blue;
+    border-right: 1px solid black;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.barra-lateral > p {
+    text-align: justify;
+}
+
+.principal {
+    width: 80%;
+    padding-left: 25px;
+}
+
+.principal > article:first-child {
+    padding-top: 0;
+}
+
+.article {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 3px solid blue;
+}
+
+.article > p {
+    max-width: 800px;
+    text-align: justify;
+}
+
+.code {
+    background: grey;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.pre {
+    border-left: 3px solid blue;
+    padding: 20px;
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista > li {
+    width: 33%;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: green;
+    }
+}

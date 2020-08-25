@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-size: 18px;
+        }
+
+        header {
+            background: rgb(16, 16, 156);
+            height: 65px;
+        }
+
+        h1 {
+            color: white;
+            font-size: 45px;
+            font-weight: 900;
+            width: 40%;
+        }
+
+        h1:hover {
+            cursor: pointer;
+        }
+
+        .b {
+            display: none;
+        }
+
+        .header {
+            height: 100%;
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            height: 100%;
+            width: 60%;
+        }
+
+        ul {
+            height: 100%;
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            margin-left: 5px;
+            padding: 0 25px;
+            text-decoration: none;
+            color: black;
+            font-size: 1rem;
+        }
+
+        a:hover {
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        }
+
+        @media (max-width: 600px) {
+            .b {
+                display: flex ;
+                background: red;
+                height: 60%;
+                width: 10%;
+                align-items: center;
+                justify-content: center;
+            }
+
+            nav {
+                display: none;
+            }
+
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="header">
+            <h1>World</h1>
+
+            <button class="b">+</button>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Contactanos</a></li>
+                    <li><a href="#">Acerca</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+</body>
+
+</html>
